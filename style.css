@@ -1,0 +1,64 @@
+/* 1. Style général de la page */
+body {
+    background-color: #0f0f12;   /* Fond très sombre style dark mode */
+    color: #e1e1e6;             /* Texte gris très clair / blanc */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* 2. Le gros titre */
+h1 {
+    color: #ff4757;             /* Rouge / Rose pétant */
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+/* 3. La boîte principale de la tier list */
+.tier1 {
+    background-color: #1a1a24;  /* Carte légèrement plus claire que le fond */
+    border: 1px solid #2a2a3a;
+    border-radius: 12px;
+    max-width: 850px;           /* Bloque la largeur pour pas que ce soit géant */
+    margin: 30px auto;          /* Centre la carte au milieu de l'écran */
+    padding: 25px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); /* Ombre sous le bloc */
+}
+
+/* Titre dans la carte */
+.tier1 h3 {
+    color: #00d2d3;             /* Bleu turquoise */
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* 4. Rendre l'image du screen pro et propre */
+.img-tier {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* 5. Le bloc du débat */
+.debat-tier-1 {
+    background-color: #242433;
+    border-left: 4px solid #ff4757; /* Barre rouge sur le côté */
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 15px 20px;
+    text-align: left;           /* Texte aligné à gauche pour que ce soit lisible */
+}
+
+.debat-tier-1 h4 {
+    margin: 0 0 8px 0;
+    color: #ffffff;
+}
+
+.debat-tier-1 p {
+    margin: 0;
+    color: #a0a0b2;
+}
